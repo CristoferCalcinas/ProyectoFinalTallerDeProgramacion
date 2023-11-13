@@ -1,5 +1,15 @@
 # Proyecto Final de Taller de Programación
 
+## Agregando los links de figma 
+
+<a href="https://www.figma.com/file/FW8bBKNSuo6HMMBTWDtwJf/Untitled?type=design&node-id=0%3A1&mode=design&t=EdmDlneQh0ECVUZt-1">
+</a>
+figma creado por Jose Carlos Rojas
+
+<a href="https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=0-1&mode=design&t=2sf8CWbPal4ZQclL-0">
+</a>
+figma creado por Doulgas Marca Severo
+
 ## Descripción
 
 El **Proyecto Final de Taller de Programación** es una aplicación web destinada a revolucionar la experiencia de compra y venta de automóviles. Desarrollada con tecnologías líderes como React para el frontend y C# para el backend, la aplicación ofrece una plataforma completa que satisface los requerimientos clave del mercado automotriz moderno.
