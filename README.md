@@ -3,9 +3,12 @@
 ## Agregando los links de figma
 
 LINK DE FIGMA CREADO POR JOSE CARLOS ROJAS
-[LINK]("https://www.figma.com/file/FW8bBKNSuo6HMMBTWDtwJf/Untitled?type=design&node-id=0-1&mode=design")
+
+[PRIMER FIGMA](https://www.figma.com/file/FW8bBKNSuo6HMMBTWDtwJf/Untitled?type=design&node-id=0-1&mode=design)
+
 LINK DE FIGMA CREADO POR DOUGLAS MARCA SEVERO
-[LINK]("https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=2-8&mode=design")
+
+[SEGUNDO FIGMA](https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=2-8&mode=design)
 
 ## Descripción
 
