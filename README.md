@@ -1,14 +1,10 @@
 # Proyecto Final de Taller de Programación
 
-## Agregando los links de figma 
+## Agregando los links de figma
 
-<a href="https://www.figma.com/file/FW8bBKNSuo6HMMBTWDtwJf/Untitled?type=design&node-id=0%3A1&mode=design&t=EdmDlneQh0ECVUZt-1">
-</a>
-figma creado por Jose Carlos Rojas
+[LINK DE FIGMA CREADO POR JOSE CARLOS ROJAS](="https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=0-1&mode=design&t=2sf8CWbPal4ZQclL-0")
 
-<a href="https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=0-1&mode=design&t=2sf8CWbPal4ZQclL-0">
-</a>
-figma creado por Doulgas Marca Severo
+[LINK DE FIGMA CREADO POR DOUGLAS MARCA SEVERO]("https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=0-1&mode=design&t=2sf8CWbPal4ZQclL-0") 
 
 ## Descripción
 
