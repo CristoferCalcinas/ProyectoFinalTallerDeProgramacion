@@ -4,11 +4,11 @@
 
 LINK DE FIGMA CREADO POR JOSE CARLOS ROJAS
 
-[PRIMER FIGMA](https://www.figma.com/file/FW8bBKNSuo6HMMBTWDtwJf/Untitled?type=design&node-id=0-1&mode=design)
+[PRIMER MOCKUP](https://www.figma.com/file/FW8bBKNSuo6HMMBTWDtwJf/Untitled?type=design&node-id=0-1&mode=design)
 
 LINK DE FIGMA CREADO POR DOUGLAS MARCA SEVERO
 
-[SEGUNDO FIGMA](https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=2-8&mode=design)
+[SEGUNDO MOCKUP](https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=2-8&mode=design)
 
 ## Descripción
 
