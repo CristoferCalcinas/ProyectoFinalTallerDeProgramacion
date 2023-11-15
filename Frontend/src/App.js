@@ -1,15 +1,9 @@
-import LoginForm from "./Components/organismos/LoginForm";
-import NavBar from "./Components/organismos/NavBar";
+import LoginPage from "./Components/pages/LoginPage";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <NavBar />
-      </div>
-      <div>
-        <LoginForm />
-      </div>
+      <LoginPage />
     </div>
   );
 }
