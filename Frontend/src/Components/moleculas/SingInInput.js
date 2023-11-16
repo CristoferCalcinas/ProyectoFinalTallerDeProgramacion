@@ -16,7 +16,7 @@ export default function SingInInput() {
 
         >
             <Typography variant="h4" style={{ color: 'white' }}>
-                SING IN
+                Sign In
             </Typography>
 
 
@@ -26,18 +26,14 @@ export default function SingInInput() {
             <Button
                 variant="contained"
                 color="secondary"
-                style={{ width: '400px', marginTop: '12px', backgroundColor: '#000', color: '#fff', borderRadius: '10px', height:'50px' }}
+                style={{ width: '400px', marginTop: '12px', backgroundColor: '#000', color: '#fff', borderRadius: '10px', height: '50px' }}
             >
                 SIGN IN
             </Button>
 
-            <Button
-                variant="contained"
-                color="secondary"
-                style={{ width: '400px', marginTop: '12px', backgroundColor: '#000', color: '#fff', borderRadius: '10px', height:'50px' }}
-            >
-                SIGN UP
-            </Button>
+            <Typography variant="h4" style={{ color: 'white' }}>
+                Sign Up
+            </Typography>
         </Box>
     )
 }
