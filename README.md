@@ -1,6 +1,6 @@
 # Proyecto Final de Taller de Programación
 
-## Agregando los links de figma
+## Agregando los links de Figma y Trello
 
 LINK DE FIGMA CREADO POR JOSE CARLOS ROJAS
 
@@ -9,6 +9,9 @@ LINK DE FIGMA CREADO POR JOSE CARLOS ROJAS
 LINK DE FIGMA CREADO POR DOUGLAS MARCA SEVERO
 
 [SEGUNDO MOCKUP](https://www.figma.com/file/mjIYEM31UgB8xYd0PCxgZc/Withe%26Blacks?type=design&node-id=2-8&mode=design)
+
+LINK DE TRELLO
+[Link de Trello](https://trello.com/invite/b/sx1Tr3sx/ATTI39879373833e4e795704fcdacf83b3bc3A341EEF/tareataller)
 
 ## Descripción
 
