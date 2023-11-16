@@ -1,5 +1,5 @@
 import NavBar from "../organismos/NavBar";
-import LoginForm from "../organismos/LoginForm";
+import LoginInForm from "../organismos/LoginInForm";
 
 export default function Page() {
     return (
@@ -8,7 +8,7 @@ export default function Page() {
                 <NavBar />
             </div>
             <div>
-                <LoginForm />
+                <LoginInForm />
             </div>)
         </>
     )
