@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import SingUpInput from '../moleculas/SingUpInput';
+import InputLoginForm from '../moleculas/InputLoginForm';
 import SignInOptions from '../moleculas/SignInOptions';
 
 
@@ -16,7 +16,7 @@ export default function LoginForm() {
         backgroundColor: '#444',
       }}
     >
-      <SingUpInput />
+      <InputLoginForm />
 
       <Typography variant="h3" sx={{ color: 'white', fontWeight: 'bold' }}>OR</Typography>
 
