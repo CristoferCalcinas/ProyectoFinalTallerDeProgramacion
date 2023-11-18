@@ -1,12 +1,12 @@
-import RegisterPage from "./Components/pages/RegisterPage";
+import BrandSearch from './Components/pages/BrandSearch';
+
 
 function App() {
   return (
     <div className="App">
-      {/* Pagina del Login */}
-      <RegisterPage />
+      <BrandSearch />
     </div>
-  );
+  );  
 }
 
 export default App;

@@ -9,7 +9,7 @@ export default function RegisterPage() {
             </div>
             <div>
                 <LoginForm />
-            </div>)
+            </div>
         </>
     )
 }

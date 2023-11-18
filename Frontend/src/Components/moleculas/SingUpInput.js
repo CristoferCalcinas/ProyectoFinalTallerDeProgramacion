@@ -21,8 +21,8 @@ export default function SingUpInput() {
 
 
             <TextInput label={'Name'} margin="none" width={'400px'} />
-            <TextInput label={'Email'} margin="normal" width={'400px'} />
-            <TextInput label={'Password'} margin="dense" width={'400px'} />
+            <TextInput label={'Email'} margin="none" width={'400px'} />
+            <TextInput label={'Password'} margin="normal" width={'400px'} />
 
             <Button
                 variant="contained"
