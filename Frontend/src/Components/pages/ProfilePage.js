@@ -1,15 +1,15 @@
 import NavBar from "../organismos/NavBar";
-import RegisterForm from "../organismos/RegisterForm";
+import ProfileData from "../organismos/ProfileData";
 
-export default function Page() {
+export default function ProfilePage() {
     return (
         <>
             <div>
                 <NavBar />
             </div>
             <div>
-                <RegisterForm />
-            </div>)
+                <ProfileData/>
+            </div>
         </>
     )
 }

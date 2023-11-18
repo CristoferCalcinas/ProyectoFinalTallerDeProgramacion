@@ -1,10 +1,10 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import InputLoginForm from '../moleculas/InputLoginForm';
+import InputRegisterForm from '../moleculas/InputRegisterForm';
 import SignInOptions from '../moleculas/SignInOptions';
 
 
-export default function LoginForm() {
+export default function RegisterForm() {
   return (
     <Box
       sx={{
@@ -16,7 +16,7 @@ export default function LoginForm() {
         backgroundColor: '#444',
       }}
     >
-      <InputLoginForm />
+      <InputRegisterForm />
 
       <Typography variant="h3" sx={{ color: 'white', fontWeight: 'bold' }}>OR</Typography>
 
