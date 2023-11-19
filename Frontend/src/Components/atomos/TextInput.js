@@ -9,7 +9,7 @@ const TextInput = ({ name, margin, width, registerparam, errors }) => {
       margin={margin}
       style={{ width: width, backgroundColor: '#fff', borderRadius: '10px' }}
       {...registerparam}
-      error={!!errors?.[name.toLowerCase()]}
+      error={!!errors?.name}
       helperText={errors?.[name.toLowerCase()]?.message}
     />
   );
