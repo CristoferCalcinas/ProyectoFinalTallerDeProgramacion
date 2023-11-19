@@ -1,7 +1,7 @@
 import NavBar from "../organismos/NavBar";
-import LoginForm from "../organismos/LoginForm";
+import RegisterForm from "../organismos/RegisterForm";
 
-export default function RegisterPage() {
+export default function Page() {
     return (
         <>
             <div>
@@ -10,6 +10,9 @@ export default function RegisterPage() {
             <div>
                 <LoginForm />
             </div>
+                <RegisterForm />
+            </div>)
+
         </>
     )
 }

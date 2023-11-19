@@ -1,15 +1,15 @@
-import SingUplnput from "../moleculas/SingUplnput";
-import SinglnOptions from "../moleculas/SinglnOptions";
+import NavBar from "../organismos/NavBar";
+import LoginForm from "../organismos/LoginForm";
 
-export default function RegisterPage() {
+export default function LoginPage() {
     return (
         <>
             <div>
-                <SingUplnput />
+                <NavBar />
             </div>
             <div>
-                <SinglnOptions/>
+                <LoginForm />
             </div>
         </>
-    )
+    );
 }
