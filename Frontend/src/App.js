@@ -1,5 +1,4 @@
-import LoginPage from "./Components/pages/LoginPage";
-import RegisterPage from "./Components/pages/RegisterPage";
+//import RegisterPage from "./Components/pages/RegisterPage";
 import ModelCarsPage from "./Components/pages/ModelCarsPage";
 
 function App() {
