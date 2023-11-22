@@ -16,6 +16,7 @@ export default function NavBar() {
     display: 'flex', 
     justifyContent: 'space-between', 
     alignItems: 'center', 
+    zIndex:'999'
   };
 
   const logoStyle = {
