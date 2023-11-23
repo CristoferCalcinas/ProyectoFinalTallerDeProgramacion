@@ -1,17 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BE_proyectoFinal.Modelos;
+using Microsoft.AspNetCore.Mvc;
 using WebApplication3.Contexto;
-using WebApplication3.Modelo;
 
 namespace WebApplication3.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class DocenteController : ControllerBase
+    public class AnuncioController : ControllerBase
     {
         private readonly ILogger _logger;
         private readonly AplicacionContexto _aplicacionContexto;
         
-        public DocenteController(ILogger<DocenteController> logger, AplicacionContexto aplicacionContexto)
+        public AnuncioController(ILogger<AnuncioController> logger, AplicacionContexto aplicacionContexto)
         {
             _logger = logger;
             _aplicacionContexto = aplicacionContexto;
@@ -19,36 +19,36 @@ namespace WebApplication3.Controllers
 
         [HttpGet]
         [Route("")]
-        public IEnumerable<Docente> GET()
+        public IEnumerable<Anuncio> GET()
         {
-            return _aplicacionContexto.docente.ToList();
+            return _aplicacionContexto.anuncio.ToList();
         }
 
         [HttpPost]
         [Route("")]
-        public IActionResult POST([FromBody] Docente newDocente)
+        public IActionResult POST([FromBody] Anuncio newAnuncio)
         {
-            _aplicacionContexto.docente.Add(newDocente);
+            _aplicacionContexto.anuncio.Add(newAnuncio);
             _aplicacionContexto.SaveChanges();
-            return Ok(newDocente);
+            return Ok(newAnuncio);
         }
 
         [HttpPut]
         [Route("")]
-        public IActionResult PUT([FromBody] Docente docenteUpdate)
+        public IActionResult PUT([FromBody] Anuncio anuncioUpdate)
         {
-            _aplicacionContexto.docente.Update(docenteUpdate);
+            _aplicacionContexto.anuncio.Update(anuncioUpdate);
             _aplicacionContexto.SaveChanges();
-            return Ok(docenteUpdate);
+            return Ok(anuncioUpdate);
         }
 
         [HttpDelete]
         [Route("")]
-        public IActionResult DELETE(int idDocenteDelete)
+        public IActionResult DELETE(int idAnuncioDelete)
         {
-            _aplicacionContexto.docente.Remove(_aplicacionContexto.docente.ToList().Where(x=>x.idDocente == idDocenteDelete).FirstOrDefault());
+            _aplicacionContexto.anuncio.Remove(_aplicacionContexto.anuncio.ToList().Where(x=>x.anuncio_id== idAnuncioDelete).FirstOrDefault());
             _aplicacionContexto.SaveChanges();
-            return Ok(idDocenteDelete);
+            return Ok(idAnuncioDelete);
         }
     }
 }
