@@ -1,15 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Numerics;
 
-namespace WebApplication3.Modelo
+namespace BE_proyectoFinal.Modelos
 {
-    public class Docente
+    public class Articulos_Blog
     {
         [Key]
         public int articulo_id { get; set; }
         public string? titulo { get; set; }
         public string? contenido { get; set; }
         public DateTime? fecha_publicacion { get; set; }
-     
     }
 }
