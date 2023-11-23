@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 
-const ImgCar = ({ img, alt }) => {
+const ImgCar = ({ img, alt}) => {
 
   const buttonStyle = {
     color:'#999'
@@ -16,6 +16,7 @@ const ImgCar = ({ img, alt }) => {
         style={{
           width: '100%',
           cursor: 'pointer',
+
         }}
       /></Button>
     </div>
