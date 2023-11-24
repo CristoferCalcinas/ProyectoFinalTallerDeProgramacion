@@ -19,14 +19,14 @@ namespace WebApplication3.Controllers
 
         [HttpGet]
         [Route("")]
-        public IEnumerable<Administradores> GET()
+        public IEnumerable<Administrador> GET()
         {
             return _aplicacionContexto.administradores.ToList();
         }
 
         [HttpPost]
         [Route("")]
-        public IActionResult POST([FromBody] Administradores newAdministradores)
+        public IActionResult POST([FromBody] Administrador newAdministradores)
         {
             _aplicacionContexto.administradores.Add(newAdministradores);
             _aplicacionContexto.SaveChanges();
@@ -35,7 +35,7 @@ namespace WebApplication3.Controllers
 
         [HttpPut]
         [Route("")]
-        public IActionResult PUT([FromBody] Administradores administradoresUpdate)
+        public IActionResult PUT([FromBody] Administrador administradoresUpdate)
         {
             _aplicacionContexto.administradores.Update(administradoresUpdate);
             _aplicacionContexto.SaveChanges();

@@ -2,7 +2,7 @@
 
 namespace BE_proyectoFinal.Modelos
 {
-    public class Anuncio
+    public class Imagenes
     {
         [Key]
         public int imagen_id { get; set; }

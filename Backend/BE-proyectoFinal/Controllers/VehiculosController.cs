@@ -28,7 +28,7 @@ namespace WebApplication3.Controllers
         [Route("")]
         public IActionResult POST([FromBody] Vehiculos newVehiculos)
         {
-            _aplicacionContexto.anuncio.Add(newVehiculos);
+            _aplicacionContexto.vehiculos.Add(newVehiculos);
             _aplicacionContexto.SaveChanges();
             return Ok(newVehiculos);
         }
