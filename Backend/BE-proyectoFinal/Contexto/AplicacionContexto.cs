@@ -9,5 +9,6 @@ namespace WebApplication3.Contexto
         public DbSet<Anuncio> anuncio { get; set; }
         public DbSet<Articulos_Blog> articulos_blog { get; set; }
         public DbSet<Favoritos> favoritos { get; set; }
+        public DbSet<Imagenes> imagenes { get; set; }
     }
 }
