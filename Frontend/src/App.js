@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       {/* Pagina de Anuncio de autos*/}
       <CarsbyMakePage />
+
     </div>
   );
 }
