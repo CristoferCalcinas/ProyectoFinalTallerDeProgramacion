@@ -1,15 +1,14 @@
 //import RegisterPage from "./Components/pages/RegisterPage";
 //import ModelCarsPage from "./Components/pages/ModelCarsPage";
 //import ListCars from "./Components/pages/ListCars";
-import CarsbyMakePage from "./Components/pages/CarsbyMakePage";
-//import AdCars from "./Components/pages/AdCars";
+//import PostForm from "./Components/pages/PostForm";
+import FindCarsAdvancedPage from "./Components/pages/FindCarsAdvancedPage";
 
 function App() {
   return (
     <div className="App">
-      {/* Pagina de Anuncio de autos*/}
-      <CarsbyMakePage />
-
+      {/* Pagina de Formulario para publicar*/}
+      <FindCarsAdvancedPage />
     </div>
   );
 }
