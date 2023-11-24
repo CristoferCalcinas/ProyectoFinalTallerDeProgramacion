@@ -46,7 +46,7 @@ namespace WebApplication3.Controllers
         [Route("")]
         public IActionResult DELETE(int idUsuariosDelete)
         {
-            _aplicacionContexto.usuarios.Remove(_aplicacionContexto.usuarios.ToList().Where(x=>x.usuario_id == idUsuarioDelete).FirstOrDefault());
+            _aplicacionContexto.usuarios.Remove(_aplicacionContexto.usuarios.ToList().Where(x=>x.usuario_id == idUsuariosDelete).FirstOrDefault());
             _aplicacionContexto.SaveChanges();
             return Ok(idUsuariosDelete);
         }

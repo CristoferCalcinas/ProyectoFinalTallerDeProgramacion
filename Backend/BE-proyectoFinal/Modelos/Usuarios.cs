@@ -11,3 +11,4 @@ namespace BE_proyectoFinal.Modelos
         public string? contraseña { get; set; }
         public string? rol { get; set; }
     }
+}
