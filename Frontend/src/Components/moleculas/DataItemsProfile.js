@@ -3,6 +3,8 @@ import List from '@mui/material/List';
 import { Grid } from '@mui/material';
 import ListItemProfile from '../atomos/ListItemProfile';
 import CardItemProfile from '../atomos/CardItemProfile';
+import { size } from 'lodash';
+import { Style } from '@mui/icons-material';
 
 export default function DataItemsProfile({
     emailParam = 'Jauncha@gamil.com',
@@ -12,13 +14,15 @@ export default function DataItemsProfile({
     roleParam = 'Seller/Buyer'
 }) {
     return (
-        <Box sx={{ bgcolor: 'black', color: 'white' }}>
+        <Box sx={{ bgcolor: 'black', color: 'white', height:'520px', marginTop:'15px', marginRight:'50px', fontSize:'30px' }}>
             <Grid container spacing={2}>
                 <Grid item xs={7}>
                     <List>
                         <ListItemProfile
                             valueListItem={'Email'}
                             valueTypography={emailParam}
+        
+                             
                         />
                         <ListItemProfile
                             valueListItem={'Country'}

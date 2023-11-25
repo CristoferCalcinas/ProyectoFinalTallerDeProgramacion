@@ -7,13 +7,13 @@ export default function OptionsList() {
 
     return (
         <List
-            sx={{ bgcolor: 'black', color: 'white' }}
+            sx={{ bgcolor: 'black', color: 'white', marginLeft:'50px', height:'500px' }}
             component="nav"
         >
             <ListItemButton >
 
                 <ListItem>
-                    <Typography sx={{ fontSize: '1.5rem !important' }} variant="body2" color="white">
+                    <Typography sx={{ fontSize: '2rem !important' }} variant="body2" color="white">
                         Your cars
                     </Typography>
                 </ListItem>
@@ -23,7 +23,7 @@ export default function OptionsList() {
 
             <ListItemButton>
                 <ListItem>
-                    <Typography sx={{ fontSize: '1.5rem !important' }} variant="body2" color="white">
+                    <Typography sx={{ fontSize: '2rem !important' }} variant="body2" color="white">
                         Your orders
                     </Typography>
                 </ListItem>
@@ -31,7 +31,7 @@ export default function OptionsList() {
 
             <ListItemButton>
                 <ListItem>
-                    <Typography sx={{ fontSize: '1.5rem !important' }} variant="body2" color="white">
+                    <Typography sx={{ fontSize: '2rem !important' }} variant="body2" color="white">
                         Your advertisement
                     </Typography>
                 </ListItem>
@@ -39,7 +39,7 @@ export default function OptionsList() {
 
             <ListItemButton >
                 <ListItem>
-                    <Typography sx={{ fontSize: '1.5rem !important' }} variant="body2" color="white">
+                    <Typography sx={{ fontSize: '2rem !important' }} variant="body2" color="white">
                         Settings
                     </Typography>
                 </ListItem>
@@ -47,7 +47,7 @@ export default function OptionsList() {
 
             <ListItemButton >
                 <ListItem>
-                    <Typography sx={{ fontSize: '1.5rem !important' }} variant="body2" color="white">
+                    <Typography sx={{ fontSize: '2rem !important' }} variant="body2" color="white">
                         Log out
                     </Typography>
                 </ListItem>

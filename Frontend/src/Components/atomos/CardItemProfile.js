@@ -1,4 +1,5 @@
 import * as React from 'react';
+import img from '../../Images/perfil.png'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -14,11 +15,12 @@ export default function CardItemProfile({
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    height={300}
+
+                    image={img}
                     alt="Icono de perfil"
                 />
-                <CardContent>
+                <CardContent sx={{textAlign:'center'}}>
                     <Typography gutterBottom variant="h5" component="div">
                         {typographyParam}
                     </Typography>
