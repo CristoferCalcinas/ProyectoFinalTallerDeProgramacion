@@ -21,14 +21,14 @@ namespace WebApplication3.Controllers
         [Route("")]
         public IEnumerable<Anuncio> GET()
         {
-            return _aplicacionContexto.anuncio.ToList();
+            return _aplicacionContexto.anuncios.ToList();
         }
 
         [HttpPost]
         [Route("")]
         public IActionResult POST([FromBody] Anuncio newAnuncio)
         {
-            _aplicacionContexto.anuncio.Add(newAnuncio);
+            _aplicacionContexto.anuncios.Add(newAnuncio);
             _aplicacionContexto.SaveChanges();
             return Ok(newAnuncio);
         }
@@ -37,7 +37,7 @@ namespace WebApplication3.Controllers
         [Route("")]
         public IActionResult PUT([FromBody] Anuncio anuncioUpdate)
         {
-            _aplicacionContexto.anuncio.Update(anuncioUpdate);
+            _aplicacionContexto.anuncios.Update(anuncioUpdate);
             _aplicacionContexto.SaveChanges();
             return Ok(anuncioUpdate);
         }
@@ -46,7 +46,7 @@ namespace WebApplication3.Controllers
         [Route("")]
         public IActionResult DELETE(int idAnuncioDelete)
         {
-            _aplicacionContexto.anuncio.Remove(_aplicacionContexto.anuncio.ToList().Where(x=>x.anuncio_id == idAnuncioDelete).FirstOrDefault());
+            _aplicacionContexto.anuncios.Remove(_aplicacionContexto.anuncios.ToList().Where(x=>x.anuncio_id == idAnuncioDelete).FirstOrDefault());
             _aplicacionContexto.SaveChanges();
             return Ok(idAnuncioDelete);
         }
