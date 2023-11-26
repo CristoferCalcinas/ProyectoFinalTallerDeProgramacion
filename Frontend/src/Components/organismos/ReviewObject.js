@@ -16,6 +16,7 @@ export default function ReviewObject() {
                     fontFamily: 'Georgia',
                     paddingY: '20px',
                     paddingX: '20px',
+                    minHeight: '100vh',
                 }
             }>
                 <Typography variant="h5" sx={

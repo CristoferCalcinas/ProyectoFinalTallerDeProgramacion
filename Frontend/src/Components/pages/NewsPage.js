@@ -9,7 +9,6 @@ export default function NewsPage() {
                 <NavBar />
             </div>
             <div style={{ marginTop: '50px' }}>
-                {/* <ReviewObject /> */}
                 <NewsObject />
             </div>
         </div>
