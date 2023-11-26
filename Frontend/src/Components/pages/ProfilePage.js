@@ -7,7 +7,7 @@ export default function ProfilePage() {
             <div>
                 <NavBar />
             </div>
-            <div>
+            <div style={{ marginTop: '50px' }}>
                 <ProfileData/>
             </div>
         </>

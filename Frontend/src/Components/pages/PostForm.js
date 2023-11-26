@@ -8,7 +8,7 @@ const PostForm = () => {
       <div>
         <NavBar />
       </div>
-      <div>
+      <div style={{ marginTop: '50px' }}>
         <PostFormGroup />
       </div>
     </div>

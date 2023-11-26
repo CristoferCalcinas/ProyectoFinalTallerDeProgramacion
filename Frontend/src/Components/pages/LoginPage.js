@@ -7,7 +7,7 @@ export default function LoginPage() {
             <div>
                 <NavBar />
             </div>
-            <div>
+            <div style={{ marginTop: '50px' }}>
                 <LoginForm />
             </div>)
         </>

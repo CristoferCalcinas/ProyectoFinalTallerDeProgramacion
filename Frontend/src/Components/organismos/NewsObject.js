@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import NewsContent from '../moleculas/NewsContent'
 import image from '../../Images/HomeImage1.png'
 import userImage from '../../Images/userReview.png'
