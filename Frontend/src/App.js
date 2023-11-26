@@ -7,7 +7,9 @@ import PostForm from "./Components/pages/PostForm";
 import CarsbyMakePage from "./Components/pages/CarsbyMakePage";
 import ModelCarsPage from "./Components/pages/ModelCarsPage";
 import FindCarsAdvancedPage from "./Components/pages/FindCarsAdvancedPage";
+import ReviewPage from "./Components/pages/ReviewPage";
 import HomePage from "./Components/pages/HomePage";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       <CarsbyMakePage />
       <ModelCarsPage />
       <FindCarsAdvancedPage />
+      <ReviewPage />
       <HomePage />
     </div>
   );
