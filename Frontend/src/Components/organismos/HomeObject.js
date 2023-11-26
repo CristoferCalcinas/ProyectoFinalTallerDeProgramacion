@@ -25,6 +25,7 @@ export default function HomeObject() {
                         fontFamily: 'Georgia',
                         paddingY: '20px',
                         paddingX: '20px',
+                        minHeight: '100vh',
                     }
                 }
             >
