@@ -9,6 +9,7 @@ import ModelCarsPage from "./Components/pages/ModelCarsPage";
 import FindCarsAdvancedPage from "./Components/pages/FindCarsAdvancedPage";
 import ReviewPage from "./Components/pages/ReviewPage";
 import HomePage from "./Components/pages/HomePage";
+import NewsPage from "./Components/pages/NewsPage";
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       <ModelCarsPage />
       <FindCarsAdvancedPage />
       <ReviewPage />
-      <HomePage />
+      <HomePage />      
+      <NewsPage />
     </div>
   );
 }
